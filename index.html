@@ -9,7 +9,7 @@
     <script src="TemplateData/UnityProgress.js"></script>  
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/BinBin.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Default WebGL.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
@@ -20,6 +20,9 @@
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
         <div class="title">Information Break</div>
       </div>
+    </div>
+    <div>
+      Please visit <a href="https://globalgamejam.org/2018/games/information-break" target="_blank">GGJ2018 Official Site</a> for more detail.
     </div>
   </body>
 </html>
